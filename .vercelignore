@@ -1,0 +1,8 @@
+*.py
+requirements.txt
+__pycache__/
+*.pyc
+.git/
+.venv/
+venv/
+cipta_group_links.xlsx
