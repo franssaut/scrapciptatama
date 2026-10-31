@@ -1,69 +1,82 @@
-# Linktree Web Scraper (cipta.group)
+# Portal Katalog Properti Cipta Group & Web Scraper
 
-Script Python untuk melakukan web scraping pada profil Linktree [https://linktr.ee/cipta.group](https://linktr.ee/cipta.group).
-
-Scraper ini mengekstrak data langsung dari payload metadata Next.js (`__NEXT_DATA__`), sehingga data yang didapat sangat akurat, cepat, dan lengkap tanpa perlu menggunakan browser otomatis yang berat (seperti Selenium / Puppeteer).
+Website portal katalog modern dan script web scraper otomatis untuk profil Linktree resmi **Cipta Group / PT Ciptatama Windsor** ([https://linktr.ee/cipta.group](https://linktr.ee/cipta.group)).
 
 ---
 
-## 📋 Data yang Berhasil Diekstrak
+## 🌐 Fitur Website (`index.html`)
 
-1. **Informasi Profil**:
-   - Username: `cipta.group`
-   - Judul Halaman: `@cipta.group`
-   - Bio / Deskripsi: `Menciptakan masa depan bersamamu. Est 1996`
-   - Foto Profil / Avatar URL
-   - Status Verifikasi
-
-2. **Daftar Tautan Utama (9 Proyek Properti)**:
-   - 🥀 SILVERBELL, TCA 2 (Google Drive)
-   - 🏬 CIPTA GRAND CITY (Google Drive)
-   - 🏬 CIPTA LAND (Google Drive)
-   - 🏡 CIPTA PIAYU VILLAGE 2 (Google Drive)
-   - 🏡 CIPTA MANDIRI (Google Drive)
-   - 🏡 CIPTA RESIDENCE (Google Drive)
-   - 🏡 CIPTA GREEN CITY TCA II (Google Drive)
-   - 🏡 CIPTA GREEN VIEW (Google Drive)
-   - 🏬 PESONA NIAGA (Google Drive)
-
-3. **Media Sosial & Kontak (3 Akun)**:
-   - Instagram: [@ciptatama_windsor](https://www.instagram.com/ciptatama_windsor/)
-   - TikTok: [@cipta_windsor](https://www.tiktok.com/@cipta_windsor)
-   - WhatsApp: [08566667363](https://api.whatsapp.com/send?phone=628566667363)
+Website telah dirancang secara terstruktur, rapi, dan responsif dengan fitur-fitur:
+1. **Hero Section Modern**: Tagline resmi *"Menciptakan masa depan bersamamu. Est 1996"*, statistik pengalaman 28+ tahun di Batam, dan legalitas terpercaya.
+2. **Katalog Interaktif 9 Proyek**:
+   - Filter Kategori: *Semua*, *Perumahan*, *Komersial & Ruko*, dan *Cluster Eksklusif*.
+   - Fitur Pencarian Cepat (*Real-time Live Search*) berdasarkan nama proyek atau lokasi.
+   - Tombol langsung ke folder Google Drive resmi (brosur resolusi tinggi & pricelist).
+   - Tombol konsultasi WhatsApp per proyek dengan pesan terisi otomatis (*pre-filled message*).
+3. **Pilar Keunggulan Pengembang**: Lokasi strategis di Batam, legalitas terjamin, kemudahan KPR perbankan.
+4. **Formulir Konsultasi & Survey Lokasi**: Terhubung langsung ke WhatsApp Marketing resmi.
+5. **Floating WhatsApp Button**: Tombol chat mengambang yang selalu mudah dijangkau di perangkat mobile dan desktop.
 
 ---
 
-## 🚀 Cara Menjalankan
+## 📁 Struktur Berkas
 
-### 1. Instalasi Kebutuhan (Opsional jika sudah ada)
-```bash
-pip install -r requirements.txt
+```
+scrapciptatama/
+├── index.html              # Halaman utama website (dapat langsung dibuka atau di-host di GitHub Pages)
+├── serve.py                # Server lokal Python dengan auto-open browser
+├── scraper.py              # Script scraper Linktree (ekstraksi metadata Next.js)
+├── cipta_group_data.json   # Hasil scrape format JSON
+├── cipta_group_links.csv   # Hasil scrape format CSV
+├── cipta_group_links.xlsx  # Hasil scrape format Excel
+├── requirements.txt        # Dependensi Python
+├── README.md               # Dokumentasi proyek
+└── assets/
+    ├── css/
+    │   └── style.css       # Styling kustom (glassmorphism, animai, font)
+    └── js/
+        └── app.js          # Logika dinamis katalog, filter, pencarian, dan integrasi WhatsApp
 ```
 
-### 2. Jalankan Scraper
-Cukup jalankan perintah berikut di terminal:
+---
+
+## 🚀 Cara Menjalankan Website Secara Lokal
+
+### Opsi 1: Menjalankan dengan Server Python (Direkomendasikan)
+Cukup jalankan:
+```bash
+python serve.py
+```
+Website akan otomatis terbuka di browser pada alamat `http://localhost:8000`.
+
+### Opsi 2: Langsung Buka Berkas HTML
+Anda juga dapat langsung klik ganda (double click) berkas `index.html` pada File Explorer untuk membukanya di browser apapun.
+
+---
+
+## ☁️ Cara Publikasi Gratis ke GitHub Pages
+
+Karena repositori ini sudah terhubung ke GitHub (`franssaut/scrapciptatama`), Anda dapat mengaktifkan website ini secara gratis agar bisa diakses oleh publik di internet:
+
+1. Buka repositori Anda di GitHub: **[https://github.com/franssaut/scrapciptatama](https://github.com/franssaut/scrapciptatama)**
+2. Klik tab **Settings** di bagian atas.
+3. Pada menu samping kiri, klik **Pages**.
+4. Di bagian **Build and deployment > Branch**:
+   - Pilih branch: `main`
+   - Pilih folder: `/ (root)`
+   - Klik **Save**.
+5. Tunggu sekitar 1-2 menit, website Anda akan tayang secara online di:
+   **`https://franssaut.github.io/scrapciptatama/`**
+
+---
+
+## 🔄 Cara Menjalankan Ulang Web Scraper
+
+Jika terdapat pembaruan tautan pada profil Linktree:
 ```bash
 python scraper.py
 ```
-
-### 3. Opsi Tambahan (CLI Arguments)
-Anda dapat menentukan URL lain, format ekspor, atau nama berkas:
+Pustaka Python yang dibutuhkan:
 ```bash
-# Men-scrape URL lain
-python scraper.py --url https://linktr.ee/nama_akun
-
-# Hanya ekspor ke format tertentu (json, csv, xlsx, atau all)
-python scraper.py --format xlsx
-
-# Mengubah nama prefix berkas keluaran
-python scraper.py --output-prefix data_cipta
+pip install -r requirements.txt
 ```
-
----
-
-## 📁 Berkas Hasil Ekspor
-
-Setelah dijalankan, scraper menghasilkan berkas berikut di folder ini:
-- `cipta_group_data.json` : Data terstruktur lengkap dalam format JSON.
-- `cipta_group_links.csv` : Tabel daftar tautan dan sosial media dalam format CSV.
-- `cipta_group_links.xlsx` : Berkas Excel dengan 3 lembar kerja (*Profil*, *Tautan Utama*, dan *Media Sosial*).
