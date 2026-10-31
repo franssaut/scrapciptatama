@@ -1,0 +1,108 @@
+{
+  "profile": {
+    "username": "cipta.group",
+    "page_title": "@cipta.group",
+    "description": "Menciptakan masa depan bersamamu. Est 1996",
+    "avatar_url": "https://ugc.production.linktr.ee/ce11525b-78be-499c-b2c8-28be31848621_Untitled-design.png",
+    "is_verified": true,
+    "meta_title": "cipta.group Official: TikTok, Instagram | Linktree",
+    "meta_description": "Menciptakan masa depan bersamamu. Est 1996",
+    "source_url": "https://linktr.ee/cipta.group"
+  },
+  "links_count": 9,
+  "social_links_count": 3,
+  "links": [
+    {
+      "no": 1,
+      "id": "591906841",
+      "title": "🥀 SILVERBELL, TCA 2",
+      "url": "https://drive.google.com/drive/folders/13FWSU06DNW85xtKY1MeEOrMCofXq2ojb?usp=sharing",
+      "type": "CLASSIC",
+      "position": 0
+    },
+    {
+      "no": 2,
+      "id": "285871785",
+      "title": "🏬 CIPTA GRAND CITY",
+      "url": "https://drive.google.com/drive/folders/1cp8ySo-gPPfUmVEGr55YZgP2gGWPrOLj?usp=drive_link",
+      "type": "CLASSIC",
+      "position": 1
+    },
+    {
+      "no": 3,
+      "id": "285876749",
+      "title": "🏬 CIPTA LAND",
+      "url": "https://drive.google.com/drive/folders/1mk6HfLwe6qISJRXd08yygfWgY7rs7iwl?usp=drive_link",
+      "type": "CLASSIC",
+      "position": 2
+    },
+    {
+      "no": 4,
+      "id": "362619514",
+      "title": "🏡 CIPTA PIAYU VILLAGE 2",
+      "url": "https://drive.google.com/drive/folders/1g58CAzx2HabFvp0OP4zhexvDqVLXUMoi?usp=drive_link",
+      "type": "CLASSIC",
+      "position": 3
+    },
+    {
+      "no": 5,
+      "id": "285881065",
+      "title": "🏡 CIPTA MANDIRI",
+      "url": "https://drive.google.com/drive/folders/1Eek1jR3GT1y3KrEPkBGOzPaTJXjt1yko?usp=drive_link",
+      "type": "CLASSIC",
+      "position": 4
+    },
+    {
+      "no": 6,
+      "id": "285880946",
+      "title": "🏡 CIPTA RESIDENCE",
+      "url": "https://drive.google.com/drive/folders/1gHSB8pAC6rJRB0nYMQk-DZpxbyoZoLWB?usp=drive_link",
+      "type": "CLASSIC",
+      "position": 5
+    },
+    {
+      "no": 7,
+      "id": "285870530",
+      "title": "🏡 CIPTA GREEN CITY TCA II",
+      "url": "https://drive.google.com/drive/folders/16Jm7jUx_wuojg9HfPKIBvlZPOyl6i4Zs?usp=drive_link",
+      "type": "CLASSIC",
+      "position": 7
+    },
+    {
+      "no": 8,
+      "id": "285878990",
+      "title": "🏡 CIPTA GREEN VIEW",
+      "url": "https://drive.google.com/drive/folders/13guuzSWWlcR16LUc0cfb44v1YmXXeFto?usp=drive_link",
+      "type": "CLASSIC",
+      "position": 8
+    },
+    {
+      "no": 9,
+      "id": "286951638",
+      "title": "🏬 PESONA NIAGA",
+      "url": "https://drive.google.com/drive/folders/1YFULZfxQV4xAVRWw15_9dw2Yf3-XVl1A?usp=drive_link",
+      "type": "CLASSIC",
+      "position": 11
+    }
+  ],
+  "social_links": [
+    {
+      "no": 1,
+      "platform": "INSTAGRAM",
+      "url": "https://www.instagram.com/ciptatama_windsor/",
+      "position": 0
+    },
+    {
+      "no": 2,
+      "platform": "TIKTOK",
+      "url": "https://www.tiktok.com/@cipta_windsor",
+      "position": 1
+    },
+    {
+      "no": 3,
+      "platform": "WHATSAPP",
+      "url": "https://api.whatsapp.com/send?phone=628566667363",
+      "position": 2
+    }
+  ]
+}
