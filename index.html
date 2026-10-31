@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cipta Group | Pengembang Properti Terpercaya di Batam (Est. 1996)</title>
+  <title>Cipta Group | Pengembang Properti Terkemuka di Batam (Est. 1996)</title>
   <meta name="description" content="Katalog resmi proyek properti PT Ciptatama Windsor (Cipta Group). Temukan perumahan, cluster eksklusif, dan ruko komersial terbaik di Batam.">
   
   <!-- Tailwind CSS CDN -->
@@ -58,9 +58,10 @@
       </a>
 
       <!-- Desktop Nav Links -->
-      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+      <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-slate-300">
         <a href="#beranda" class="hover:text-white transition">Beranda</a>
         <a href="#katalog" class="hover:text-white transition">Katalog Proyek</a>
+        <a href="#simulasi-kpr" class="hover:text-white transition">Simulasi KPR</a>
         <a href="#tentang" class="hover:text-white transition">Tentang Kami</a>
         <a href="#kontak" class="hover:text-white transition">Kontak</a>
       </nav>
@@ -86,6 +87,7 @@
     <div id="mobileMenu" class="hidden md:hidden bg-slate-900 border-b border-slate-800 px-4 pt-2 pb-6 space-y-3">
       <a href="#beranda" class="block py-2 text-slate-300 hover:text-white font-medium">Beranda</a>
       <a href="#katalog" class="block py-2 text-slate-300 hover:text-white font-medium">Katalog Proyek</a>
+      <a href="#simulasi-kpr" class="block py-2 text-slate-300 hover:text-white font-medium">Simulasi KPR</a>
       <a href="#tentang" class="block py-2 text-slate-300 hover:text-white font-medium">Tentang Kami</a>
       <a href="#kontak" class="block py-2 text-slate-300 hover:text-white font-medium">Kontak</a>
       <a href="https://api.whatsapp.com/send?phone=628566667363&text=Halo%20Cipta%20Group,%20saya%20ingin%20konsultasi%20properti" 
@@ -114,7 +116,7 @@
         </h1>
 
         <p class="mt-6 text-base sm:text-lg text-slate-300 leading-relaxed font-light">
-          Lebih dari 28 tahun PT Ciptatama Windsor menghadirkan kawasan perumahan terpadu, cluster modern, serta ruko komersial strategis di seluruh penjuru kota Batam.
+          Lebih dari 28 tahun PT Ciptatama Windsor menghadirkan kawasan perumahan terpadu, cluster eksklusif, serta ruko komersial strategis di seluruh penjuru kota Batam.
         </p>
 
         <!-- CTA Buttons -->
@@ -162,7 +164,7 @@
     <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
       <div>
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-sky-100 text-sky-800 text-xs font-bold tracking-wide uppercase mb-3">
-          Katalog Resmi Properti
+          Katalog Properti & Dokumen Resmi
         </div>
         <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
           Portofolio Proyek Unggulan
@@ -181,20 +183,20 @@
     </div>
 
     <!-- Filter & Search Toolbar -->
-    <div class="bg-white p-4 rounded-2xl shadow-sm border border-slate-200 mb-10 flex flex-col md:flex-row items-center justify-between gap-4">
+    <div class="bg-white p-4 rounded-3xl shadow-sm border border-slate-200 mb-10 flex flex-col md:flex-row items-center justify-between gap-4">
       
-      <!-- Kategori Filter Buttons -->
-      <div class="flex flex-wrap items-center gap-2 w-full md:w-auto">
-        <button data-filter="all" class="px-4 py-2 rounded-xl text-sm font-semibold transition bg-sky-600 text-white shadow-md">
+      <!-- Kategori Filter Buttons (Horizontally scrollable on mobile) -->
+      <div class="flex items-center gap-2 w-full md:w-auto overflow-x-auto no-scrollbar pb-1 md:pb-0">
+        <button data-filter="all" class="shrink-0 px-4 py-2 rounded-xl text-sm font-semibold transition bg-sky-600 text-white shadow-md">
           Semua Proyek
         </button>
-        <button data-filter="residensial" class="px-4 py-2 rounded-xl text-sm font-semibold transition bg-white text-slate-600 border border-slate-200 hover:bg-slate-50">
+        <button data-filter="residensial" class="shrink-0 px-4 py-2 rounded-xl text-sm font-semibold transition bg-white text-slate-600 border border-slate-200 hover:bg-slate-50">
           Perumahan
         </button>
-        <button data-filter="komersial" class="px-4 py-2 rounded-xl text-sm font-semibold transition bg-white text-slate-600 border border-slate-200 hover:bg-slate-50">
+        <button data-filter="komersial" class="shrink-0 px-4 py-2 rounded-xl text-sm font-semibold transition bg-white text-slate-600 border border-slate-200 hover:bg-slate-50">
           Komersial & Ruko
         </button>
-        <button data-filter="cluster" class="px-4 py-2 rounded-xl text-sm font-semibold transition bg-white text-slate-600 border border-slate-200 hover:bg-slate-50">
+        <button data-filter="cluster" class="shrink-0 px-4 py-2 rounded-xl text-sm font-semibold transition bg-white text-slate-600 border border-slate-200 hover:bg-slate-50">
           Cluster Eksklusif
         </button>
       </div>
@@ -204,7 +206,7 @@
         <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
           <i data-lucide="search" class="w-4 h-4"></i>
         </div>
-        <input type="text" id="searchInput" placeholder="Cari nama proyek atau lokasi..." 
+        <input type="text" id="searchInput" placeholder="Cari nama proyek, lokasi, tipe..." 
                class="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent transition bg-slate-50 focus:bg-white">
       </div>
 
@@ -215,6 +217,93 @@
       <!-- Diisi otomatis oleh app.js -->
     </div>
 
+  </section>
+
+  <!-- SIMULASI KPR SECTION -->
+  <section id="simulasi-kpr" class="py-20 bg-slate-100 border-y border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="max-w-3xl mx-auto text-center mb-12">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-emerald-100 text-emerald-800 text-xs font-bold uppercase mb-3">
+          Perhitungan Finansial
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+          Kalkulator Simulasi KPR
+        </h2>
+        <p class="text-slate-600 mt-3 text-base">
+          Hitung perkiraan angsuran bulanan kepemilikan properti idaman Anda dengan mudah dan akurat.
+        </p>
+      </div>
+
+      <div class="max-w-4xl mx-auto bg-white rounded-3xl p-6 sm:p-10 shadow-lg border border-slate-200 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        
+        <!-- Input Form -->
+        <div class="lg:col-span-7 space-y-5">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-2">Harga Properti (Rp)</label>
+            <input type="number" id="kprPrice" value="500000000" step="10000000"
+                   class="w-full px-4 py-3 rounded-xl border border-slate-200 text-slate-900 font-bold focus:ring-2 focus:ring-sky-500 focus:outline-none bg-slate-50 focus:bg-white">
+          </div>
+
+          <div class="grid grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-2">Uang Muka / DP (%)</label>
+              <select id="kprDpPercent" class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm font-semibold focus:ring-2 focus:ring-sky-500 focus:outline-none bg-slate-50 focus:bg-white">
+                <option value="10">10% (Rekomendasi)</option>
+                <option value="15">15%</option>
+                <option value="20">20%</option>
+                <option value="30">30%</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-2">Jangka Waktu (Tenor)</label>
+              <select id="kprTenor" class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm font-semibold focus:ring-2 focus:ring-sky-500 focus:outline-none bg-slate-50 focus:bg-white">
+                <option value="5">5 Tahun (60 Bln)</option>
+                <option value="10">10 Tahun (120 Bln)</option>
+                <option value="15" selected>15 Tahun (180 Bln)</option>
+                <option value="20">20 Tahun (240 Bln)</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-2">Bunga KPR Bank (% per tahun)</label>
+            <input type="number" id="kprRate" value="6.5" step="0.1"
+                   class="w-full px-4 py-3 rounded-xl border border-slate-200 text-slate-900 font-bold focus:ring-2 focus:ring-sky-500 focus:outline-none bg-slate-50 focus:bg-white">
+          </div>
+        </div>
+
+        <!-- Output Calculation Result -->
+        <div class="lg:col-span-5 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 rounded-2xl p-6 text-white space-y-6">
+          <div>
+            <span class="text-xs text-slate-400 font-semibold uppercase tracking-wider">Perkiraan Angsuran:</span>
+            <div id="kprMonthlyInstallment" class="text-3xl font-extrabold text-emerald-400 mt-1">
+              Rp 3.921.000 /bln
+            </div>
+          </div>
+
+          <div class="space-y-3 pt-4 border-t border-slate-800 text-xs">
+            <div class="flex justify-between">
+              <span class="text-slate-400">Uang Muka (DP):</span>
+              <span id="kprDpNominal" class="font-bold text-white">Rp 50.000.000</span>
+            </div>
+            <div class="flex justify-between">
+              <span class="text-slate-400">Plafon Pinjaman:</span>
+              <span id="kprLoanNominal" class="font-bold text-white">Rp 450.000.000</span>
+            </div>
+          </div>
+
+          <button onclick="openModal()" 
+                  class="w-full py-3 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs uppercase tracking-wider rounded-xl transition shadow-lg shadow-emerald-500/20 flex items-center justify-center gap-2">
+            <i data-lucide="calculator" class="w-4 h-4"></i>
+            Konsultasi Bank Rekanan
+          </button>
+        </div>
+
+      </div>
+
+    </div>
   </section>
 
   <!-- ABOUT & KENAPA KAMI SECTION -->
@@ -238,7 +327,7 @@
         <!-- Card 1 -->
         <div class="p-8 rounded-2xl bg-slate-800/60 border border-slate-700/80">
           <div class="w-12 h-12 rounded-xl bg-sky-500/10 text-sky-400 flex items-center justify-center mb-6 border border-sky-500/20">
-            <i data-lucide="map-pinned" class="w-6 h-6"></i>
+            <i data-lucide="map-pin" class="w-6 h-6"></i>
           </div>
           <h3 class="text-xl font-bold text-white mb-2">Lokasi Paling Strategis</h3>
           <p class="text-slate-400 text-sm leading-relaxed">
@@ -249,7 +338,7 @@
         <!-- Card 2 -->
         <div class="p-8 rounded-2xl bg-slate-800/60 border border-slate-700/80">
           <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center mb-6 border border-amber-500/20">
-            <i data-lucide="file-check-2" class="w-6 h-6"></i>
+            <i data-lucide="shield-check" class="w-6 h-6"></i>
           </div>
           <h3 class="text-xl font-bold text-white mb-2">Legalitas Aman & Terjamin</h3>
           <p class="text-slate-400 text-sm leading-relaxed">
@@ -260,7 +349,7 @@
         <!-- Card 3 -->
         <div class="p-8 rounded-2xl bg-slate-800/60 border border-slate-700/80">
           <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center mb-6 border border-emerald-500/20">
-            <i data-lucide="badge-percent" class="w-6 h-6"></i>
+            <i data-lucide="percent" class="w-6 h-6"></i>
           </div>
           <h3 class="text-xl font-bold text-white mb-2">Kemudahan KPR & Promo</h3>
           <p class="text-slate-400 text-sm leading-relaxed">
@@ -333,6 +422,7 @@
           <ul class="space-y-2 text-sm">
             <li><a href="#beranda" class="hover:text-white transition">Beranda</a></li>
             <li><a href="#katalog" class="hover:text-white transition">Katalog Proyek</a></li>
+            <li><a href="#simulasi-kpr" class="hover:text-white transition">Simulasi KPR</a></li>
             <li><a href="#tentang" class="hover:text-white transition">Tentang Cipta Group</a></li>
             <li><a href="https://linktr.ee/cipta.group" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">Linktree Resmi</a></li>
           </ul>
@@ -364,7 +454,7 @@
 
       <div class="pt-8 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
         <p>&copy; 1996 - 2026 PT Ciptatama Windsor (Cipta Group). All rights reserved.</p>
-        <p>Portal web katalog terstruktur berbasis data sinkronisasi Linktree.</p>
+        <p>Portal web katalog terstruktur berbasis data sinkronisasi Linktree & Google Drive.</p>
       </div>
 
     </div>
@@ -378,9 +468,16 @@
     <i data-lucide="message-circle" class="w-7 h-7"></i>
   </a>
 
+  <!-- MODAL DETAIL PROYEK -->
+  <div id="projectDetailModal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-slate-950/85 backdrop-blur-md flex items-center justify-center p-4">
+    <div id="projectDetailContent" class="bg-white rounded-3xl max-w-2xl w-full shadow-2xl relative border border-slate-200 overflow-hidden my-8">
+      <!-- Diisi oleh app.js -->
+    </div>
+  </div>
+
   <!-- MODAL FORM KONSULTASI -->
-  <div id="contactModal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
-    <div class="bg-white rounded-2xl max-w-lg w-full p-6 sm:p-8 shadow-2xl relative border border-slate-100">
+  <div id="contactModal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-slate-950/85 backdrop-blur-md flex items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl relative border border-slate-100 my-8">
       
       <!-- Close Button -->
       <button onclick="closeModal()" class="absolute top-5 right-5 text-slate-400 hover:text-slate-600 p-1 rounded-lg">
