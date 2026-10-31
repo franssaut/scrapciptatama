@@ -1,0 +1,643 @@
+{
+  "profile": {
+    "username": "cipta.group",
+    "page_title": "@cipta.group",
+    "description": "Menciptakan masa depan bersamamu. Est 1996",
+    "avatar_url": "https://ugc.production.linktr.ee/ce11525b-78be-499c-b2c8-28be31848621_Untitled-design.png",
+    "is_verified": true,
+    "meta_title": "cipta.group Official: TikTok, Instagram | Linktree",
+    "meta_description": "Menciptakan masa depan bersamamu. Est 1996",
+    "theme_name": "Custom",
+    "source_url": "https://linktr.ee/cipta.group",
+    "scraped_at": "2026-10-31 20:57:25"
+  },
+  "summary": {
+    "total_projects": 9,
+    "total_social_channels": 3,
+    "total_drive_subfolders": 44,
+    "total_drive_files": 20
+  },
+  "social_links": [
+    {
+      "platform": "INSTAGRAM",
+      "url": "https://www.instagram.com/ciptatama_windsor/",
+      "position": 0,
+      "meta": {
+        "handle": "ciptatama_windsor"
+      }
+    },
+    {
+      "platform": "TIKTOK",
+      "url": "https://www.tiktok.com/@cipta_windsor",
+      "position": 1,
+      "meta": {
+        "handle": "@cipta_windsor"
+      }
+    },
+    {
+      "platform": "WHATSAPP",
+      "url": "https://api.whatsapp.com/send?phone=628566667363",
+      "position": 2,
+      "meta": {
+        "phone_raw": "628566667363",
+        "phone_display": "+62 856-6667-363"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "no": 1,
+      "id": "591906841",
+      "raw_title": "🥀 SILVERBELL, TCA 2",
+      "clean_title": "SILVERBELL, TCA 2",
+      "emoji": "🥀",
+      "category": "Cluster Eksklusif",
+      "category_slug": "cluster",
+      "location": "TCA (Tiban Centre Avenue), Batam",
+      "highlight": "Hunian Mewah Modern",
+      "drive_url": "https://drive.google.com/drive/folders/13FWSU06DNW85xtKY1MeEOrMCofXq2ojb?usp=sharing",
+      "drive_folder_id": "13FWSU06DNW85xtKY1MeEOrMCofXq2ojb",
+      "drive_details": {
+        "scanned": true,
+        "subfolders": [
+          {
+            "id": "1FgjZrAJqqwHvdP9L9ZeQ_hAn1pyLGlVN",
+            "name": "BROSUR",
+            "category_tag": "Brosur / Marketing Kit",
+            "url": "https://drive.google.com/drive/folders/1FgjZrAJqqwHvdP9L9ZeQ_hAn1pyLGlVN"
+          },
+          {
+            "id": "1NpTG25lKeTn6dF3plsjtmoF-wvhY1vMf",
+            "name": "PRICELIST",
+            "category_tag": "Pricelist / Simulasi Angsuran",
+            "url": "https://drive.google.com/drive/folders/1NpTG25lKeTn6dF3plsjtmoF-wvhY1vMf"
+          },
+          {
+            "id": "15hrdOfFtNRHB14-655OqVqUGOEB7cFGt",
+            "name": "SITEPLAN",
+            "category_tag": "Siteplan / Masterplan",
+            "url": "https://drive.google.com/drive/folders/15hrdOfFtNRHB14-655OqVqUGOEB7cFGt"
+          },
+          {
+            "id": "1VeT3D3eJTb2lCI_mHIdbdgfJdANk4R5s",
+            "name": "VIDEO",
+            "category_tag": "Video Promosi & Progres",
+            "url": "https://drive.google.com/drive/folders/1VeT3D3eJTb2lCI_mHIdbdgfJdANk4R5s"
+          }
+        ],
+        "files": [],
+        "total_subfolders": 4,
+        "total_files": 0
+      }
+    },
+    {
+      "no": 2,
+      "id": "285871785",
+      "raw_title": "🏬 CIPTA GRAND CITY",
+      "clean_title": "CIPTA GRAND CITY",
+      "emoji": "🏬",
+      "category": "Kota Mandiri & Niaga",
+      "category_slug": "komersial",
+      "location": "Kawasan Terpadu Batam",
+      "highlight": "Mega Proyek Terpadu",
+      "drive_url": "https://drive.google.com/drive/folders/1cp8ySo-gPPfUmVEGr55YZgP2gGWPrOLj?usp=drive_link",
+      "drive_folder_id": "1cp8ySo-gPPfUmVEGr55YZgP2gGWPrOLj",
+      "drive_details": {
+        "scanned": true,
+        "subfolders": [
+          {
+            "id": "1h2MQkGahtW_HOKM9QMAoe5rb1j0qsjFC",
+            "name": "BROSUR",
+            "category_tag": "Brosur / Marketing Kit",
+            "url": "https://drive.google.com/drive/folders/1h2MQkGahtW_HOKM9QMAoe5rb1j0qsjFC"
+          },
+          {
+            "id": "1scD8D_o2aEyaDtNIG88gyu1fzXMroJzX",
+            "name": "DENAH",
+            "category_tag": "Denah Rumah / Lantai",
+            "url": "https://drive.google.com/drive/folders/1scD8D_o2aEyaDtNIG88gyu1fzXMroJzX"
+          },
+          {
+            "id": "1050wa9MWyb1xzm1mhDyulYGFBg5p2E7j",
+            "name": "GAMBAR",
+            "category_tag": "Galeri Desain & Tipe Unit",
+            "url": "https://drive.google.com/drive/folders/1050wa9MWyb1xzm1mhDyulYGFBg5p2E7j"
+          },
+          {
+            "id": "1W6TiW5GuaZY7Z9wmhC3uPS5bMWVl3ds3",
+            "name": "PRICE LIST",
+            "category_tag": "Pricelist / Simulasi Angsuran",
+            "url": "https://drive.google.com/drive/folders/1W6TiW5GuaZY7Z9wmhC3uPS5bMWVl3ds3"
+          },
+          {
+            "id": "10Gx6RoVQYPIYYzAQjLUDgWg3QyQY56i2",
+            "name": "SITE PLAN",
+            "category_tag": "Siteplan / Masterplan",
+            "url": "https://drive.google.com/drive/folders/10Gx6RoVQYPIYYzAQjLUDgWg3QyQY56i2"
+          },
+          {
+            "id": "1U4BtKC5zQy7RKbC-_ALvY3TNL09NQQrE",
+            "name": "VIDEO",
+            "category_tag": "Video Promosi & Progres",
+            "url": "https://drive.google.com/drive/folders/1U4BtKC5zQy7RKbC-_ALvY3TNL09NQQrE"
+          }
+        ],
+        "files": [
+          {
+            "id": "1XOMdbwXoOSaTM4TEiKHXyGPV8Mo9n4Il",
+            "name": "1.mp4",
+            "mimeType": "video/mp4",
+            "url": "https://drive.google.com/file/d/1XOMdbwXoOSaTM4TEiKHXyGPV8Mo9n4Il/view",
+            "direct_download": "https://drive.google.com/uc?export=download&id=1XOMdbwXoOSaTM4TEiKHXyGPV8Mo9n4Il"
+          },
+          {
+            "id": "1ftTg22XmcXlV4jYVAh7YoYStRNxRmV-C",
+            "name": "2.mp4",
+            "mimeType": "video/mp4",
+            "url": "https://drive.google.com/file/d/1ftTg22XmcXlV4jYVAh7YoYStRNxRmV-C/view",
+            "direct_download": "https://drive.google.com/uc?export=download&id=1ftTg22XmcXlV4jYVAh7YoYStRNxRmV-C"
+          },
+          {
+            "id": "1hoMeTL0z-pXs-WnttuH6gzWQFM35zeac",
+            "name": "3.mp4",
+            "mimeType": "video/mp4",
+            "url": "https://drive.google.com/file/d/1hoMeTL0z-pXs-WnttuH6gzWQFM35zeac/view",
+            "direct_download": "https://drive.google.com/uc?export=download&id=1hoMeTL0z-pXs-WnttuH6gzWQFM35zeac"
+          },
+          {
+            "id": "1c6PFPcS0TLZGXE21Km3P3CChlAKHYC_J",
+            "name": "4.mp4",
+            "mimeType": "video/mp4",
+            "url": "https://drive.google.com/file/d/1c6PFPcS0TLZGXE21Km3P3CChlAKHYC_J/view",
+            "direct_download": "https://drive.google.com/uc?export=download&id=1c6PFPcS0TLZGXE21Km3P3CChlAKHYC_J"
+          },
+          {
+            "id": "19N7qI-cqKLP5oZnAK4X2BUZtjJNaKXDO",
+            "name": "AUDREY FULL KONTEN CGC 1.mp4",
+            "mimeType": "video/mp4",
+            "url": "https://drive.google.com/file/d/19N7qI-cqKLP5oZnAK4X2BUZtjJNaKXDO/view",
+            "direct_download": "https://drive.google.com/uc?export=download&id=19N7qI-cqKLP5oZnAK4X2BUZtjJNaKXDO"
+          },
+          {
+            "id": "1nkSuNiz7jBltoHn0AWD5qOhW_X1Yx-FO",
+            "name": "AUDREY FULL KONTEN CGC 2.mp4",
+            "mimeType": "video/mp4",
+            "url": "https://drive.google.com/file/d/1nkSuNiz7jBltoHn0AWD5qOhW_X1Yx-FO/view",
+            "direct_download": "https://drive.google.com/uc?export=download&id=1nkSuNiz7jBltoHn0AWD5qOhW_X1Yx-FO"
+          },
+          {
+            "id": "1F_eiQ_Rp_nU8j9lTHTQWXizRnSiq6lGM",
+            "name": "AUDREY FULL KONTEN CGC 3.mp4",
+            "mimeType": "video/mp4",
+            "url": "https://drive.google.com/file/d/1F_eiQ_Rp_nU8j9lTHTQWXizRnSiq6lGM/view",
+            "direct_download": "https://drive.google.com/uc?export=download&id=1F_eiQ_Rp_nU8j9lTHTQWXizRnSiq6lGM"
+          },
+          {
+            "id": "1bx1ZATggMovLWsdnDKSUQZnxXNVXsAfz",
+            "name": "AUDREY FULL KONTEN CGC 4.mp4",
+            "mimeType": "video/mp4",
+            "url": "https://drive.google.com/file/d/1bx1ZATggMovLWsdnDKSUQZnxXNVXsAfz/view",
+            "direct_download": "https://drive.google.com/uc?export=download&id=1bx1ZATggMovLWsdnDKSUQZnxXNVXsAfz"
+          },
+          {
+            "id": "1L_eRCTu9XZOIa1vwj_f6EVR9A5k-gmFn",
+            "name": "CGC HOOK 1 Audrey 01 FULL.mp4",
+            "mimeType": "video/mp4",
+            "url": "https://drive.google.com/file/d/1L_eRCTu9XZOIa1vwj_f6EVR9A5k-gmFn/view",
+            "direct_download": "https://drive.google.com/uc?export=download&id=1L_eRCTu9XZOIa1vwj_f6EVR9A5k-gmFn"
+          },
+          {
+            "id": "1-6xjPnvjVNqvTo8slc5IVpdJG6var1YM",
+            "name": "CGC HOOK 1 Audrey 02 FULL.mp4",
+            "mimeType": "video/mp4",
+            "url": "https://drive.google.com/file/d/1-6xjPnvjVNqvTo8slc5IVpdJG6var1YM/view",
+            "direct_download": "https://drive.google.com/uc?export=download&id=1-6xjPnvjVNqvTo8slc5IVpdJG6var1YM"
+          },
+          {
+            "id": "1SdTX6yiw9n7qLlzGg2PtKzdayojzcsZD",
+            "name": "CGC HOOK 1 Mona 01 Full.mp4",
+            "mimeType": "video/mp4",
+            "url": "https://drive.google.com/file/d/1SdTX6yiw9n7qLlzGg2PtKzdayojzcsZD/view",
+            "direct_download": "https://drive.google.com/uc?export=download&id=1SdTX6yiw9n7qLlzGg2PtKzdayojzcsZD"
+          },
+          {
+            "id": "121V4uOjTeQrsMhYe8n0uScvwZkMv281e",
+            "name": "CGC HOOK 1 Mona 02 Full.mp4",
+            "mimeType": "video/mp4",
+            "url": "https://drive.google.com/file/d/121V4uOjTeQrsMhYe8n0uScvwZkMv281e/view",
+            "direct_download": "https://drive.google.com/uc?export=download&id=121V4uOjTeQrsMhYe8n0uScvwZkMv281e"
+          },
+          {
+            "id": "1uhy8al1YrDaIC64fxsQ7X_6r2R20ZGXx",
+            "name": "IRWAN FULL CGC 1.mp4",
+            "mimeType": "video/mp4",
+            "url": "https://drive.google.com/file/d/1uhy8al1YrDaIC64fxsQ7X_6r2R20ZGXx/view",
+            "direct_download": "https://drive.google.com/uc?export=download&id=1uhy8al1YrDaIC64fxsQ7X_6r2R20ZGXx"
+          },
+          {
+            "id": "1lNr-yXOEi9XA-KPu6OsKCveEmv3Bh3Mg",
+            "name": "IRWAN FULL CGC 2.mp4",
+            "mimeType": "video/mp4",
+            "url": "https://drive.google.com/file/d/1lNr-yXOEi9XA-KPu6OsKCveEmv3Bh3Mg/view",
+            "direct_download": "https://drive.google.com/uc?export=download&id=1lNr-yXOEi9XA-KPu6OsKCveEmv3Bh3Mg"
+          },
+          {
+            "id": "1D4Dqmaun7Zgtc-4aBJ3phoirhAxltwgP",
+            "name": "STEVEN FULL CGC 3.mp4",
+            "mimeType": "video/mp4",
+            "url": "https://drive.google.com/file/d/1D4Dqmaun7Zgtc-4aBJ3phoirhAxltwgP/view",
+            "direct_download": "https://drive.google.com/uc?export=download&id=1D4Dqmaun7Zgtc-4aBJ3phoirhAxltwgP"
+          },
+          {
+            "id": "1l4Iw1Hevx-Degyu4WXD8BZ8rvtQDyYvI",
+            "name": "STEVEN FULL CGC 4.mp4",
+            "mimeType": "video/mp4",
+            "url": "https://drive.google.com/file/d/1l4Iw1Hevx-Degyu4WXD8BZ8rvtQDyYvI/view",
+            "direct_download": "https://drive.google.com/uc?export=download&id=1l4Iw1Hevx-Degyu4WXD8BZ8rvtQDyYvI"
+          },
+          {
+            "id": "1IR8rjMIIC4AIZGAM_80lwKrgV_tnuq06",
+            "name": "WhatsApp Video 2026-04-09 at 16.05.30 (1).mp4",
+            "mimeType": "video/mp4",
+            "url": "https://drive.google.com/file/d/1IR8rjMIIC4AIZGAM_80lwKrgV_tnuq06/view",
+            "direct_download": "https://drive.google.com/uc?export=download&id=1IR8rjMIIC4AIZGAM_80lwKrgV_tnuq06"
+          },
+          {
+            "id": "12pFkIGgD1ppYE1j3yevAXidfkbc0d-U6",
+            "name": "WhatsApp Video 2026-04-09 at 16.05.30.mp4",
+            "mimeType": "video/mp4",
+            "url": "https://drive.google.com/file/d/12pFkIGgD1ppYE1j3yevAXidfkbc0d-U6/view",
+            "direct_download": "https://drive.google.com/uc?export=download&id=12pFkIGgD1ppYE1j3yevAXidfkbc0d-U6"
+          },
+          {
+            "id": "1FQj2ZC2EhuXKl_Numvn8x4xi0VU4Qizb",
+            "name": "WhatsApp Video 2026-04-09 at 16.05.31 (1).mp4",
+            "mimeType": "video/mp4",
+            "url": "https://drive.google.com/file/d/1FQj2ZC2EhuXKl_Numvn8x4xi0VU4Qizb/view",
+            "direct_download": "https://drive.google.com/uc?export=download&id=1FQj2ZC2EhuXKl_Numvn8x4xi0VU4Qizb"
+          },
+          {
+            "id": "1ACHezp2NBmVfA4IDdoQZu-UHn-FGNZ76",
+            "name": "WhatsApp Video 2026-04-09 at 16.05.31.mp4",
+            "mimeType": "video/mp4",
+            "url": "https://drive.google.com/file/d/1ACHezp2NBmVfA4IDdoQZu-UHn-FGNZ76/view",
+            "direct_download": "https://drive.google.com/uc?export=download&id=1ACHezp2NBmVfA4IDdoQZu-UHn-FGNZ76"
+          }
+        ],
+        "total_subfolders": 6,
+        "total_files": 20
+      }
+    },
+    {
+      "no": 3,
+      "id": "285876749",
+      "raw_title": "🏬 CIPTA LAND",
+      "clean_title": "CIPTA LAND",
+      "emoji": "🏬",
+      "category": "Komersial & Ruko",
+      "category_slug": "komersial",
+      "location": "Batam",
+      "highlight": "Pusat Niaga Strategis",
+      "drive_url": "https://drive.google.com/drive/folders/1mk6HfLwe6qISJRXd08yygfWgY7rs7iwl?usp=drive_link",
+      "drive_folder_id": "1mk6HfLwe6qISJRXd08yygfWgY7rs7iwl",
+      "drive_details": {
+        "scanned": true,
+        "subfolders": [
+          {
+            "id": "1CUpTSgduB4cC1ItoqryJP8D9Zq9r-gol",
+            "name": "Brosur Ciptaland",
+            "category_tag": "Brosur / Marketing Kit",
+            "url": "https://drive.google.com/drive/folders/1CUpTSgduB4cC1ItoqryJP8D9Zq9r-gol"
+          },
+          {
+            "id": "1JTsiWNMao3l2767TqlOW45PoNup1_tHL",
+            "name": "Ruko Cipta Land",
+            "category_tag": "Dokumen Properti",
+            "url": "https://drive.google.com/drive/folders/1JTsiWNMao3l2767TqlOW45PoNup1_tHL"
+          },
+          {
+            "id": "198ZJzpJ3wjTr7qTlJsXxlR6hPuF0uytl",
+            "name": "Rumah, Blok Dahlia",
+            "category_tag": "Dokumen Properti",
+            "url": "https://drive.google.com/drive/folders/198ZJzpJ3wjTr7qTlJsXxlR6hPuF0uytl"
+          },
+          {
+            "id": "1Hg67nZgUTn-lUDulrUxLIzPdkFyCkQR-",
+            "name": "Rumah, Blok Kamboja",
+            "category_tag": "Dokumen Properti",
+            "url": "https://drive.google.com/drive/folders/1Hg67nZgUTn-lUDulrUxLIzPdkFyCkQR-"
+          }
+        ],
+        "files": [],
+        "total_subfolders": 4,
+        "total_files": 0
+      }
+    },
+    {
+      "no": 4,
+      "id": "362619514",
+      "raw_title": "🏡 CIPTA PIAYU VILLAGE 2",
+      "clean_title": "CIPTA PIAYU VILLAGE 2",
+      "emoji": "🏡",
+      "category": "Perumahan Subsidi/Komersil",
+      "category_slug": "residensial",
+      "location": "Piayu, Batam",
+      "highlight": "Hunian Asri Ramah Anggaran",
+      "drive_url": "https://drive.google.com/drive/folders/1g58CAzx2HabFvp0OP4zhexvDqVLXUMoi?usp=drive_link",
+      "drive_folder_id": "1g58CAzx2HabFvp0OP4zhexvDqVLXUMoi",
+      "drive_details": {
+        "scanned": true,
+        "subfolders": [
+          {
+            "id": "1AsSQdRmPDjQf8MWohmg5bRs51qwCP0Uh",
+            "name": "BROSUR",
+            "category_tag": "Brosur / Marketing Kit",
+            "url": "https://drive.google.com/drive/folders/1AsSQdRmPDjQf8MWohmg5bRs51qwCP0Uh"
+          },
+          {
+            "id": "1ZRzKh343QywjuphYBuXfrc0cI33BkjI_",
+            "name": "PRICELIST",
+            "category_tag": "Pricelist / Simulasi Angsuran",
+            "url": "https://drive.google.com/drive/folders/1ZRzKh343QywjuphYBuXfrc0cI33BkjI_"
+          },
+          {
+            "id": "1H1JLjEjn8y1e3yPz1MDY4v2WvIiottQ3",
+            "name": "SITE PLAN",
+            "category_tag": "Siteplan / Masterplan",
+            "url": "https://drive.google.com/drive/folders/1H1JLjEjn8y1e3yPz1MDY4v2WvIiottQ3"
+          },
+          {
+            "id": "1PceMBoCyNCU7VopoPbY07mJh88SZMyUq",
+            "name": "VIDEO",
+            "category_tag": "Video Promosi & Progres",
+            "url": "https://drive.google.com/drive/folders/1PceMBoCyNCU7VopoPbY07mJh88SZMyUq"
+          }
+        ],
+        "files": [],
+        "total_subfolders": 4,
+        "total_files": 0
+      }
+    },
+    {
+      "no": 5,
+      "id": "285881065",
+      "raw_title": "🏡 CIPTA MANDIRI",
+      "clean_title": "CIPTA MANDIRI",
+      "emoji": "🏡",
+      "category": "Perumahan",
+      "category_slug": "residensial",
+      "location": "Batam",
+      "highlight": "Hunian Keluarga Strategis",
+      "drive_url": "https://drive.google.com/drive/folders/1Eek1jR3GT1y3KrEPkBGOzPaTJXjt1yko?usp=drive_link",
+      "drive_folder_id": "1Eek1jR3GT1y3KrEPkBGOzPaTJXjt1yko",
+      "drive_details": {
+        "scanned": true,
+        "subfolders": [
+          {
+            "id": "1QeVfYhgg8tbjOaUxmk_u11MyQ2IMQuCF",
+            "name": "BROSUR",
+            "category_tag": "Brosur / Marketing Kit",
+            "url": "https://drive.google.com/drive/folders/1QeVfYhgg8tbjOaUxmk_u11MyQ2IMQuCF"
+          },
+          {
+            "id": "16rjNGdAQj_cMHdBUaVkLIlEC1F1Kb4th",
+            "name": "DENAH",
+            "category_tag": "Denah Rumah / Lantai",
+            "url": "https://drive.google.com/drive/folders/16rjNGdAQj_cMHdBUaVkLIlEC1F1Kb4th"
+          },
+          {
+            "id": "1Mncii6MozBjJtWLgSK8FZzIb3PuZz-xC",
+            "name": "GAMBAR",
+            "category_tag": "Galeri Desain & Tipe Unit",
+            "url": "https://drive.google.com/drive/folders/1Mncii6MozBjJtWLgSK8FZzIb3PuZz-xC"
+          },
+          {
+            "id": "17TZjqahNntXb3bck5rMFWLN2HHVHvyPO",
+            "name": "PRICE LIST",
+            "category_tag": "Pricelist / Simulasi Angsuran",
+            "url": "https://drive.google.com/drive/folders/17TZjqahNntXb3bck5rMFWLN2HHVHvyPO"
+          },
+          {
+            "id": "1PHZ-NkSJNplQIC_9usJO0_edcUKp0fY2",
+            "name": "SITE PLAN",
+            "category_tag": "Siteplan / Masterplan",
+            "url": "https://drive.google.com/drive/folders/1PHZ-NkSJNplQIC_9usJO0_edcUKp0fY2"
+          },
+          {
+            "id": "1I-4JTS3IPhVLYcD2ZfFyPNIuWC184ZU0",
+            "name": "VIDEO",
+            "category_tag": "Video Promosi & Progres",
+            "url": "https://drive.google.com/drive/folders/1I-4JTS3IPhVLYcD2ZfFyPNIuWC184ZU0"
+          }
+        ],
+        "files": [],
+        "total_subfolders": 6,
+        "total_files": 0
+      }
+    },
+    {
+      "no": 6,
+      "id": "285880946",
+      "raw_title": "🏡 CIPTA RESIDENCE",
+      "clean_title": "CIPTA RESIDENCE",
+      "emoji": "🏡",
+      "category": "Perumahan Modern",
+      "category_slug": "residensial",
+      "location": "Batam",
+      "highlight": "Hunian Nyaman & Tertata",
+      "drive_url": "https://drive.google.com/drive/folders/1gHSB8pAC6rJRB0nYMQk-DZpxbyoZoLWB?usp=drive_link",
+      "drive_folder_id": "1gHSB8pAC6rJRB0nYMQk-DZpxbyoZoLWB",
+      "drive_details": {
+        "scanned": true,
+        "subfolders": [
+          {
+            "id": "1TxiyeHZMMa9ts4cujrXA_cdMjNN-LqID",
+            "name": "BROSUR",
+            "category_tag": "Brosur / Marketing Kit",
+            "url": "https://drive.google.com/drive/folders/1TxiyeHZMMa9ts4cujrXA_cdMjNN-LqID"
+          },
+          {
+            "id": "1dH55BrBIQfUhXm1mYjk_WRFEYG286HMv",
+            "name": "DENAH",
+            "category_tag": "Denah Rumah / Lantai",
+            "url": "https://drive.google.com/drive/folders/1dH55BrBIQfUhXm1mYjk_WRFEYG286HMv"
+          },
+          {
+            "id": "1fJ7NbPV_RAiBRAeHdTN7o8GxGpBng-UG",
+            "name": "GAMBAR RUMAH",
+            "category_tag": "Galeri Desain & Tipe Unit",
+            "url": "https://drive.google.com/drive/folders/1fJ7NbPV_RAiBRAeHdTN7o8GxGpBng-UG"
+          },
+          {
+            "id": "1n5_9VOZwRRud5_IjiSHzpeBMMKINU3-W",
+            "name": "PRICE LIST",
+            "category_tag": "Pricelist / Simulasi Angsuran",
+            "url": "https://drive.google.com/drive/folders/1n5_9VOZwRRud5_IjiSHzpeBMMKINU3-W"
+          },
+          {
+            "id": "1-7QMyppNpUzzwouZv2vZnd6Iz1BkwBVX",
+            "name": "SITE PLAN",
+            "category_tag": "Siteplan / Masterplan",
+            "url": "https://drive.google.com/drive/folders/1-7QMyppNpUzzwouZv2vZnd6Iz1BkwBVX"
+          },
+          {
+            "id": "1NFbtzLkLDgeBnppfUforxmo3IQQNzsEp",
+            "name": "VIDEO",
+            "category_tag": "Video Promosi & Progres",
+            "url": "https://drive.google.com/drive/folders/1NFbtzLkLDgeBnppfUforxmo3IQQNzsEp"
+          }
+        ],
+        "files": [],
+        "total_subfolders": 6,
+        "total_files": 0
+      }
+    },
+    {
+      "no": 7,
+      "id": "285870530",
+      "raw_title": "🏡 CIPTA GREEN CITY TCA II",
+      "clean_title": "CIPTA GREEN CITY TCA II",
+      "emoji": "🏡",
+      "category": "Eco Living",
+      "category_slug": "cluster",
+      "location": "TCA (Tiban Centre Avenue), Batam",
+      "highlight": "Kota Hijau Berkelanjutan",
+      "drive_url": "https://drive.google.com/drive/folders/16Jm7jUx_wuojg9HfPKIBvlZPOyl6i4Zs?usp=drive_link",
+      "drive_folder_id": "16Jm7jUx_wuojg9HfPKIBvlZPOyl6i4Zs",
+      "drive_details": {
+        "scanned": true,
+        "subfolders": [
+          {
+            "id": "1iCpC4KUBILHVf1nLP8nJN6JT-Sx4UmTS",
+            "name": "BROSUR",
+            "category_tag": "Brosur / Marketing Kit",
+            "url": "https://drive.google.com/drive/folders/1iCpC4KUBILHVf1nLP8nJN6JT-Sx4UmTS"
+          },
+          {
+            "id": "1mturFBRzE84nWUiju6TZ0-l7XUwoEIgG",
+            "name": "DENAH",
+            "category_tag": "Denah Rumah / Lantai",
+            "url": "https://drive.google.com/drive/folders/1mturFBRzE84nWUiju6TZ0-l7XUwoEIgG"
+          },
+          {
+            "id": "1T5S2izO66IvKGKWg5mXJtkJoBxcsbG5r",
+            "name": "GAMBAR RUMAH",
+            "category_tag": "Galeri Desain & Tipe Unit",
+            "url": "https://drive.google.com/drive/folders/1T5S2izO66IvKGKWg5mXJtkJoBxcsbG5r"
+          },
+          {
+            "id": "1V01QmXuUXVUrD0p5RJGVadXg4c1GnDGS",
+            "name": "PRICE LIST",
+            "category_tag": "Pricelist / Simulasi Angsuran",
+            "url": "https://drive.google.com/drive/folders/1V01QmXuUXVUrD0p5RJGVadXg4c1GnDGS"
+          },
+          {
+            "id": "1nrZ7ZOlpqar1Va26jqRYnpSv5Zz7pky9",
+            "name": "SITE PLAN",
+            "category_tag": "Siteplan / Masterplan",
+            "url": "https://drive.google.com/drive/folders/1nrZ7ZOlpqar1Va26jqRYnpSv5Zz7pky9"
+          }
+        ],
+        "files": [],
+        "total_subfolders": 5,
+        "total_files": 0
+      }
+    },
+    {
+      "no": 8,
+      "id": "285878990",
+      "raw_title": "🏡 CIPTA GREEN VIEW",
+      "clean_title": "CIPTA GREEN VIEW",
+      "emoji": "🏡",
+      "category": "Hunian Panorama",
+      "category_slug": "residensial",
+      "location": "Batam",
+      "highlight": "Pemandangan Alam Asri",
+      "drive_url": "https://drive.google.com/drive/folders/13guuzSWWlcR16LUc0cfb44v1YmXXeFto?usp=drive_link",
+      "drive_folder_id": "13guuzSWWlcR16LUc0cfb44v1YmXXeFto",
+      "drive_details": {
+        "scanned": true,
+        "subfolders": [
+          {
+            "id": "1DuRPjfcvWHGZkxv2LaCAvtq8FTvZlOHT",
+            "name": "BROSUR",
+            "category_tag": "Brosur / Marketing Kit",
+            "url": "https://drive.google.com/drive/folders/1DuRPjfcvWHGZkxv2LaCAvtq8FTvZlOHT"
+          },
+          {
+            "id": "1WyuY-fysiozLahV63xEQTfDxGabQppab",
+            "name": "DENAH",
+            "category_tag": "Denah Rumah / Lantai",
+            "url": "https://drive.google.com/drive/folders/1WyuY-fysiozLahV63xEQTfDxGabQppab"
+          },
+          {
+            "id": "1vxC4NLDf0q1mqLSQtE8FX1RY5-oXvhtJ",
+            "name": "GAMBAR RUMAH",
+            "category_tag": "Galeri Desain & Tipe Unit",
+            "url": "https://drive.google.com/drive/folders/1vxC4NLDf0q1mqLSQtE8FX1RY5-oXvhtJ"
+          },
+          {
+            "id": "1hXr3rbbFCNc9ETRLPMaC4eIgtKiuAZDw",
+            "name": "PRICE LIST",
+            "category_tag": "Pricelist / Simulasi Angsuran",
+            "url": "https://drive.google.com/drive/folders/1hXr3rbbFCNc9ETRLPMaC4eIgtKiuAZDw"
+          },
+          {
+            "id": "1TTOyUZ2GpUKWzP2WWPf7F-l91N0YXzhN",
+            "name": "SITE PLAN",
+            "category_tag": "Siteplan / Masterplan",
+            "url": "https://drive.google.com/drive/folders/1TTOyUZ2GpUKWzP2WWPf7F-l91N0YXzhN"
+          },
+          {
+            "id": "1avppdOpriV_WNtOTljChPE1b-UkfT2BC",
+            "name": "VIDEO",
+            "category_tag": "Video Promosi & Progres",
+            "url": "https://drive.google.com/drive/folders/1avppdOpriV_WNtOTljChPE1b-UkfT2BC"
+          }
+        ],
+        "files": [],
+        "total_subfolders": 6,
+        "total_files": 0
+      }
+    },
+    {
+      "no": 9,
+      "id": "286951638",
+      "raw_title": "🏬 PESONA NIAGA",
+      "clean_title": "PESONA NIAGA",
+      "emoji": "🏬",
+      "category": "Komersial & Ruko",
+      "category_slug": "komersial",
+      "location": "Pusat Niaga Batam",
+      "highlight": "Ruko Bisnis Ramai",
+      "drive_url": "https://drive.google.com/drive/folders/1YFULZfxQV4xAVRWw15_9dw2Yf3-XVl1A?usp=drive_link",
+      "drive_folder_id": "1YFULZfxQV4xAVRWw15_9dw2Yf3-XVl1A",
+      "drive_details": {
+        "scanned": true,
+        "subfolders": [
+          {
+            "id": "1IPmDES9HUSEgtEZRSMiTgfVFYjJICj_J",
+            "name": "Gambar Ruko",
+            "category_tag": "Galeri Desain & Tipe Unit",
+            "url": "https://drive.google.com/drive/folders/1IPmDES9HUSEgtEZRSMiTgfVFYjJICj_J"
+          },
+          {
+            "id": "1KWDCeJikof77DsNlGqXjl_3pUJqp9INy",
+            "name": "PRICELIST",
+            "category_tag": "Pricelist / Simulasi Angsuran",
+            "url": "https://drive.google.com/drive/folders/1KWDCeJikof77DsNlGqXjl_3pUJqp9INy"
+          },
+          {
+            "id": "1TMDIEPjlsSTTGwizaI6EJ6xLDdn3slOw",
+            "name": "SEWA",
+            "category_tag": "Informasi Sewa Niaga",
+            "url": "https://drive.google.com/drive/folders/1TMDIEPjlsSTTGwizaI6EJ6xLDdn3slOw"
+          }
+        ],
+        "files": [],
+        "total_subfolders": 3,
+        "total_files": 0
+      }
+    }
+  ]
+}

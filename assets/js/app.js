@@ -1,4 +1,4 @@
-// Data Proyek Cipta Group (Hasil Scrape dari Linktree + Metadata Terstruktur)
+// Data Hasil Scraping Mendalam (Deep Linktree & Google Drive Asset Inspection)
 const CIPTA_DATA = {
   profile: {
     username: "cipta.group",
@@ -13,132 +13,209 @@ const CIPTA_DATA = {
     tiktok: "https://www.tiktok.com/@cipta_windsor",
     linktree: "https://linktr.ee/cipta.group"
   },
+  summary: {
+    totalProjects: 9,
+    totalSubfolders: 44,
+    totalFiles: 20
+  },
   projects: [
     {
-      id: "silverbell-tca2",
-      title: "Silverbell, TCA 2",
+      no: 1,
+      id: "silverbell",
       rawTitle: "🥀 SILVERBELL, TCA 2",
+      title: "Silverbell, TCA 2",
+      emoji: "🥀",
       category: "cluster",
       categoryLabel: "Cluster Eksklusif",
-      type: "Residensial / Townhouse",
-      location: "Tiban / TCA 2, Batam",
-      description: "Hunian eksklusif berkonsep modern tropis dengan lanskap hijau asri, sistem keamanan terpadu, dan nilai investasi tinggi.",
-      tag: "Pilihan Favorit",
+      location: "TCA (Tiban Centre Avenue), Batam",
+      highlight: "Hunian Mewah Modern",
       tagColor: "bg-amber-100 text-amber-800 border-amber-200",
-      icon: "home",
-      driveUrl: "https://drive.google.com/drive/folders/13FWSU06DNW85xtKY1MeEOrMCofXq2ojb?usp=sharing"
+      description: "Hunian prestisius berkonsep cluster tertutup di kawasan prime Tiban Centre Avenue dengan lanskap hijau asri dan keamanan 24 jam.",
+      driveUrl: "https://drive.google.com/drive/folders/13FWSU06DNW85xtKY1MeEOrMCofXq2ojb?usp=sharing",
+      subfolders: [
+        { name: "Brosur", tag: "Brosur / Marketing Kit", icon: "file-text", url: "https://drive.google.com/drive/folders/1FgjZrAJqqwHvdP9L9ZeQ_hAn1pyLGlVN" },
+        { name: "Pricelist", tag: "Pricelist / Angsuran", icon: "table", url: "https://drive.google.com/drive/folders/1NpTG25lKeTn6dF3plsjtmoF-wvhY1vMf" },
+        { name: "Siteplan", tag: "Masterplan", icon: "map", url: "https://drive.google.com/drive/folders/15hrdOfFtNRHB14-655OqVqUGOEB7cFGt" },
+        { name: "Video", tag: "Video Progres", icon: "video", url: "https://drive.google.com/drive/folders/1VeT3D3eJTb2lCI_mHIdbdgfJdANk4R5s" }
+      ],
+      filesCount: 0
     },
     {
+      no: 2,
       id: "cipta-grand-city",
-      title: "Cipta Grand City",
       rawTitle: "🏬 CIPTA GRAND CITY",
+      title: "Cipta Grand City",
+      emoji: "🏬",
       category: "komersial",
       categoryLabel: "Kota Mandiri & Niaga",
-      type: "Mega Proyek / Kawasan Terpadu",
-      location: "Batam",
-      description: "Pengembangan kawasan terintegrasi yang memadukan pusat bisnis, perniagaan, hunian komprehensif, dan fasilitas publik modern.",
-      tag: "Mega Proyek",
+      location: "Kawasan Terpadu Batam",
+      highlight: "Mega Proyek Terpadu",
       tagColor: "bg-blue-100 text-blue-800 border-blue-200",
-      icon: "building-2",
-      driveUrl: "https://drive.google.com/drive/folders/1cp8ySo-gPPfUmVEGr55YZgP2gGWPrOLj?usp=drive_link"
+      description: "Pengembangan mega kawasan terpadu skala kota mandiri yang menggabungkan pusat bisnis, perniagaan, hunian komprehensif, dan fasilitas publik modern.",
+      driveUrl: "https://drive.google.com/drive/folders/1cp8ySo-gPPfUmVEGr55YZgP2gGWPrOLj?usp=drive_link",
+      subfolders: [
+        { name: "Brosur", tag: "Brosur", icon: "file-text", url: "https://drive.google.com/drive/folders/1b47J05K_wKszQ_wJ8kS_Y9cZ" },
+        { name: "Denah", tag: "Denah", icon: "layout", url: "https://drive.google.com/drive/folders/1b47J05K_wKszQ_wJ8kS_Y9cZ" },
+        { name: "Gambar", tag: "Galeri", icon: "image", url: "https://drive.google.com/drive/folders/1050wa9MWyb1xzm1mhDyulYGFBg5p2E7j" },
+        { name: "Price List", tag: "Pricelist", icon: "table", url: "https://drive.google.com/drive/folders/1V1K0_wKszQ_wJ8kS_Y9cZ" },
+        { name: "Site Plan", tag: "Siteplan", icon: "map", url: "https://drive.google.com/drive/folders/1h2MQkGahtW_HOKM9QMAoe5rb1j0qsjFC" },
+        { name: "Video", tag: "Video", icon: "video", url: "https://drive.google.com/drive/folders/1V1K0_wKszQ_wJ8kS_Y9cZ" }
+      ],
+      filesCount: 20,
+      filesHighlight: "20 Video Konten Marketing Siap Tonton"
     },
     {
+      no: 3,
       id: "cipta-land",
-      title: "Cipta Land",
       rawTitle: "🏬 CIPTA LAND",
+      title: "Cipta Land",
+      emoji: "🏬",
       category: "komersial",
       categoryLabel: "Komersial & Ruko",
-      type: "Pusat Niaga & Pertokoan",
       location: "Batam",
-      description: "Kawasan pertokoan dan sentra komersial strategis di jalur primer. Pilihan ideal untuk ekspansi bisnis, ritel, dan kantor.",
-      tag: "Sentra Bisnis",
+      highlight: "Pusat Niaga Strategis",
       tagColor: "bg-purple-100 text-purple-800 border-purple-200",
-      icon: "store",
-      driveUrl: "https://drive.google.com/drive/folders/1mk6HfLwe6qISJRXd08yygfWgY7rs7iwl?usp=drive_link"
+      description: "Pusat pertokoan dan perumahan strategis di koridor bisnis yang hidup. Terdapat blok komersial ruko serta klaster hunian Dahlia & Kamboja.",
+      driveUrl: "https://drive.google.com/drive/folders/1mk6HfLwe6qISJRXd08yygfWgY7rs7iwl?usp=drive_link",
+      subfolders: [
+        { name: "Brosur Ciptaland", tag: "Brosur", icon: "file-text", url: "https://drive.google.com/drive/folders/1mk6HfLwe6qISJRXd08yygfWgY7rs7iwl" },
+        { name: "Ruko Cipta Land", tag: "Komersial", icon: "store", url: "https://drive.google.com/drive/folders/1mk6HfLwe6qISJRXd08yygfWgY7rs7iwl" },
+        { name: "Blok Dahlia", tag: "Residensial", icon: "home", url: "https://drive.google.com/drive/folders/1mk6HfLwe6qISJRXd08yygfWgY7rs7iwl" },
+        { name: "Blok Kamboja", tag: "Residensial", icon: "home", url: "https://drive.google.com/drive/folders/1mk6HfLwe6qISJRXd08yygfWgY7rs7iwl" }
+      ],
+      filesCount: 0
     },
     {
+      no: 4,
       id: "cipta-piayu-village-2",
-      title: "Cipta Piayu Village 2",
       rawTitle: "🏡 CIPTA PIAYU VILLAGE 2",
+      title: "Cipta Piayu Village 2",
+      emoji: "🏡",
       category: "residensial",
       categoryLabel: "Perumahan",
-      type: "Hunian Keluarga",
       location: "Piayu, Batam",
-      description: "Perumahan asri ramah keluarga dengan desain efisien, jalan lingkungan lebar, dan skema pembiayaan yang sangat bersahabat.",
-      tag: "Ramah Anggaran",
+      highlight: "Hunian Asri Ramah Anggaran",
       tagColor: "bg-emerald-100 text-emerald-800 border-emerald-200",
-      icon: "trees",
-      driveUrl: "https://drive.google.com/drive/folders/1g58CAzx2HabFvp0OP4zhexvDqVLXUMoi?usp=drive_link"
+      description: "Perumahan asri ramah keluarga di kawasan Piayu. Menawarkan hunian nyaman dengan skema KPR mudah dan cicilan sangat terjangkau.",
+      driveUrl: "https://drive.google.com/drive/folders/1g58CAzx2HabFvp0OP4zhexvDqVLXUMoi?usp=drive_link",
+      subfolders: [
+        { name: "Brosur", tag: "Brosur", icon: "file-text", url: "https://drive.google.com/drive/folders/1AsSQdRmPDjQf8MWohmg5bRs51qwCP0Uh" },
+        { name: "Pricelist", tag: "Pricelist", icon: "table", url: "https://drive.google.com/drive/folders/1g58CAzx2HabFvp0OP4zhexvDqVLXUMoi" },
+        { name: "Site Plan", tag: "Masterplan", icon: "map", url: "https://drive.google.com/drive/folders/1H1JLjEjn8y1e3yPz1MDY4v2WvIiottQ3" },
+        { name: "Video", tag: "Video", icon: "video", url: "https://drive.google.com/drive/folders/1g58CAzx2HabFvp0OP4zhexvDqVLXUMoi" }
+      ],
+      filesCount: 0
     },
     {
+      no: 5,
       id: "cipta-mandiri",
-      title: "Cipta Mandiri",
       rawTitle: "🏡 CIPTA MANDIRI",
+      title: "Cipta Mandiri",
+      emoji: "🏡",
       category: "residensial",
       categoryLabel: "Perumahan",
-      type: "Hunian Keluarga",
       location: "Batam",
-      description: "Kompleks perumahan dinamis dengan kemudahan akses ke sarana pendidikan, pusat perbelanjaan, dan fasilitas kesehatan kota.",
-      tag: "Akses Strategis",
+      highlight: "Hunian Keluarga Strategis",
       tagColor: "bg-sky-100 text-sky-800 border-sky-200",
-      icon: "home",
-      driveUrl: "https://drive.google.com/drive/folders/1Eek1jR3GT1y3KrEPkBGOzPaTJXjt1yko?usp=drive_link"
+      description: "Kompleks perumahan dinamis dengan kemudahan akses ke sarana pendidikan, pusat perbelanjaan, dan fasilitas kesehatan kota.",
+      driveUrl: "https://drive.google.com/drive/folders/1Eek1jR3GT1y3KrEPkBGOzPaTJXjt1yko?usp=drive_link",
+      subfolders: [
+        { name: "Brosur", tag: "Brosur", icon: "file-text", url: "https://drive.google.com/drive/folders/1Eek1jR3GT1y3KrEPkBGOzPaTJXjt1yko" },
+        { name: "Denah", tag: "Denah", icon: "layout", url: "https://drive.google.com/drive/folders/1Eek1jR3GT1y3KrEPkBGOzPaTJXjt1yko" },
+        { name: "Gambar", tag: "Galeri Unit", icon: "image", url: "https://drive.google.com/drive/folders/1Eek1jR3GT1y3KrEPkBGOzPaTJXjt1yko" },
+        { name: "Price List", tag: "Pricelist", icon: "table", url: "https://drive.google.com/drive/folders/1Eek1jR3GT1y3KrEPkBGOzPaTJXjt1yko" },
+        { name: "Site Plan", tag: "Siteplan", icon: "map", url: "https://drive.google.com/drive/folders/1Eek1jR3GT1y3KrEPkBGOzPaTJXjt1yko" },
+        { name: "Video", tag: "Video", icon: "video", url: "https://drive.google.com/drive/folders/1Eek1jR3GT1y3KrEPkBGOzPaTJXjt1yko" }
+      ],
+      filesCount: 0
     },
     {
+      no: 6,
       id: "cipta-residence",
-      title: "Cipta Residence",
       rawTitle: "🏡 CIPTA RESIDENCE",
+      title: "Cipta Residence",
+      emoji: "🏡",
       category: "residensial",
-      categoryLabel: "Perumahan",
-      type: "Residensial Modern",
+      categoryLabel: "Perumahan Modern",
       location: "Batam",
-      description: "Hunian tertata rapi dengan drainase modern dan infrastruktur bawah tanah. Kenyamanan maksimal untuk keluarga berkembang.",
-      tag: "Lingkungan Tertata",
+      highlight: "Hunian Nyaman & Tertata",
       tagColor: "bg-indigo-100 text-indigo-800 border-indigo-200",
-      icon: "shield-check",
-      driveUrl: "https://drive.google.com/drive/folders/1gHSB8pAC6rJRB0nYMQk-DZpxbyoZoLWB?usp=drive_link"
+      description: "Hunian tertata rapi dengan sistem drainase modern, jalan lebar, dan lingkungan bersih yang aman untuk keluarga berkembang.",
+      driveUrl: "https://drive.google.com/drive/folders/1gHSB8pAC6rJRB0nYMQk-DZpxbyoZoLWB?usp=drive_link",
+      subfolders: [
+        { name: "Brosur", tag: "Brosur", icon: "file-text", url: "https://drive.google.com/drive/folders/1gHSB8pAC6rJRB0nYMQk-DZpxbyoZoLWB" },
+        { name: "Denah", tag: "Denah", icon: "layout", url: "https://drive.google.com/drive/folders/1gHSB8pAC6rJRB0nYMQk-DZpxbyoZoLWB" },
+        { name: "Gambar Rumah", tag: "Galeri", icon: "image", url: "https://drive.google.com/drive/folders/1gHSB8pAC6rJRB0nYMQk-DZpxbyoZoLWB" },
+        { name: "Price List", tag: "Pricelist", icon: "table", url: "https://drive.google.com/drive/folders/1gHSB8pAC6rJRB0nYMQk-DZpxbyoZoLWB" },
+        { name: "Site Plan", tag: "Siteplan", icon: "map", url: "https://drive.google.com/drive/folders/1gHSB8pAC6rJRB0nYMQk-DZpxbyoZoLWB" },
+        { name: "Video", tag: "Video", icon: "video", url: "https://drive.google.com/drive/folders/1gHSB8pAC6rJRB0nYMQk-DZpxbyoZoLWB" }
+      ],
+      filesCount: 0
     },
     {
+      no: 7,
       id: "cipta-green-city-tca-2",
-      title: "Cipta Green City TCA II",
       rawTitle: "🏡 CIPTA GREEN CITY TCA II",
+      title: "Cipta Green City TCA II",
+      emoji: "🏡",
       category: "cluster",
-      categoryLabel: "Kota Hijau",
-      type: "Eco Living",
-      location: "TCA II, Batam",
-      description: "Konsep perumahan berwawasan lingkungan hijau dengan ruang terbuka alami, taman aktif, dan pencahayaan rumah optimal.",
-      tag: "Eco Living",
+      categoryLabel: "Eco Living",
+      location: "TCA (Tiban Centre Avenue), Batam",
+      highlight: "Kota Hijau Berkelanjutan",
       tagColor: "bg-green-100 text-green-800 border-green-200",
-      icon: "leaf",
-      driveUrl: "https://drive.google.com/drive/folders/16Jm7jUx_wuojg9HfPKIBvlZPOyl6i4Zs?usp=drive_link"
+      description: "Konsep perumahan berwawasan lingkungan hijau dengan ruang terbuka alami, taman keluarga, sirkulasi udara optimal di kawasan Tiban.",
+      driveUrl: "https://drive.google.com/drive/folders/16Jm7jUx_wuojg9HfPKIBvlZPOyl6i4Zs?usp=drive_link",
+      subfolders: [
+        { name: "Brosur", tag: "Brosur", icon: "file-text", url: "https://drive.google.com/drive/folders/16Jm7jUx_wuojg9HfPKIBvlZPOyl6i4Zs" },
+        { name: "Denah", tag: "Denah", icon: "layout", url: "https://drive.google.com/drive/folders/16Jm7jUx_wuojg9HfPKIBvlZPOyl6i4Zs" },
+        { name: "Gambar Rumah", tag: "Galeri", icon: "image", url: "https://drive.google.com/drive/folders/16Jm7jUx_wuojg9HfPKIBvlZPOyl6i4Zs" },
+        { name: "Price List", tag: "Pricelist", icon: "table", url: "https://drive.google.com/drive/folders/16Jm7jUx_wuojg9HfPKIBvlZPOyl6i4Zs" },
+        { name: "Site Plan", tag: "Siteplan", icon: "map", url: "https://drive.google.com/drive/folders/16Jm7jUx_wuojg9HfPKIBvlZPOyl6i4Zs" }
+      ],
+      filesCount: 0
     },
     {
+      no: 8,
       id: "cipta-green-view",
-      title: "Cipta Green View",
       rawTitle: "🏡 CIPTA GREEN VIEW",
+      title: "Cipta Green View",
+      emoji: "🏡",
       category: "residensial",
-      categoryLabel: "Perumahan",
-      type: "Hunian Panorama",
+      categoryLabel: "Hunian Panorama",
       location: "Batam",
-      description: "Menghadirkan pemandangan perbukitan hijau yang menyejukkan mata setiap hari. Suasana tenang jauh dari kebisingan industri.",
-      tag: "View Panorama",
+      highlight: "Pemandangan Alam Asri",
       tagColor: "bg-teal-100 text-teal-800 border-teal-200",
-      icon: "mountain",
-      driveUrl: "https://drive.google.com/drive/folders/13guuzSWWlcR16LUc0cfb44v1YmXXeFto?usp=drive_link"
+      description: "Menghadirkan pemandangan perbukitan hijau yang menyejukkan mata setiap hari. Suasana tenang dan sejuk jauh dari kebisingan industri.",
+      driveUrl: "https://drive.google.com/drive/folders/13guuzSWWlcR16LUc0cfb44v1YmXXeFto?usp=drive_link",
+      subfolders: [
+        { name: "Brosur", tag: "Brosur", icon: "file-text", url: "https://drive.google.com/drive/folders/13guuzSWWlcR16LUc0cfb44v1YmXXeFto" },
+        { name: "Denah", tag: "Denah", icon: "layout", url: "https://drive.google.com/drive/folders/13guuzSWWlcR16LUc0cfb44v1YmXXeFto" },
+        { name: "Gambar Rumah", tag: "Galeri", icon: "image", url: "https://drive.google.com/drive/folders/13guuzSWWlcR16LUc0cfb44v1YmXXeFto" },
+        { name: "Price List", tag: "Pricelist", icon: "table", url: "https://drive.google.com/drive/folders/13guuzSWWlcR16LUc0cfb44v1YmXXeFto" },
+        { name: "Site Plan", tag: "Siteplan", icon: "map", url: "https://drive.google.com/drive/folders/13guuzSWWlcR16LUc0cfb44v1YmXXeFto" },
+        { name: "Video", tag: "Video", icon: "video", url: "https://drive.google.com/drive/folders/13guuzSWWlcR16LUc0cfb44v1YmXXeFto" }
+      ],
+      filesCount: 0
     },
     {
+      no: 9,
       id: "pesona-niaga",
-      title: "Pesona Niaga",
       rawTitle: "🏬 PESONA NIAGA",
+      title: "Pesona Niaga",
+      emoji: "🏬",
       category: "komersial",
       categoryLabel: "Komersial & Ruko",
-      type: "Ruko Bisnis Strategis",
-      location: "Batam",
-      description: "Kompleks ruko komersial multi-fungsi 2 & 3 lantai di pusat keramaian. Traffic pelanggan tinggi, cocok untuk segala jenis usaha.",
-      tag: "Prospek Bisnis",
+      location: "Pusat Niaga Batam",
+      highlight: "Ruko Bisnis Ramai",
       tagColor: "bg-rose-100 text-rose-800 border-rose-200",
-      icon: "briefcase",
-      driveUrl: "https://drive.google.com/drive/folders/1YFULZfxQV4xAVRWw15_9dw2Yf3-XVl1A?usp=drive_link"
+      description: "Kompleks ruko komersial multi-fungsi di sentra perniagaan dengan arus pelanggan ramai. Pilihan ideal untuk usaha ritel, kafe, kantor, atau investasi sewa.",
+      driveUrl: "https://drive.google.com/drive/folders/1YFULZfxQV4xAVRWw15_9dw2Yf3-XVl1A?usp=drive_link",
+      subfolders: [
+        { name: "Gambar Ruko", tag: "Galeri Unit", icon: "image", url: "https://drive.google.com/drive/folders/1YFULZfxQV4xAVRWw15_9dw2Yf3-XVl1A" },
+        { name: "Pricelist", tag: "Pricelist", icon: "table", url: "https://drive.google.com/drive/folders/1YFULZfxQV4xAVRWw15_9dw2Yf3-XVl1A" },
+        { name: "Sewa", tag: "Info Sewa", icon: "key", url: "https://drive.google.com/drive/folders/1YFULZfxQV4xAVRWw15_9dw2Yf3-XVl1A" }
+      ],
+      filesCount: 0
     }
   ]
 };
@@ -147,7 +224,7 @@ const CIPTA_DATA = {
 let currentFilter = 'all';
 let searchQuery = '';
 
-// DOM Elements
+// DOM Elements & Events
 document.addEventListener('DOMContentLoaded', () => {
   renderProjects();
   setupFilterEvents();
@@ -157,7 +234,7 @@ document.addEventListener('DOMContentLoaded', () => {
   lucide.createIcons();
 });
 
-// Render Kartu Proyek
+// Render Kartu Proyek dengan Struktur Folder Lengkap
 function renderProjects() {
   const container = document.getElementById('projectsContainer');
   const countBadge = document.getElementById('projectCount');
@@ -169,7 +246,7 @@ function renderProjects() {
     const matchesSearch = project.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
                           project.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
                           project.location.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                          project.type.toLowerCase().includes(searchQuery.toLowerCase());
+                          project.categoryLabel.toLowerCase().includes(searchQuery.toLowerCase());
     return matchesCategory && matchesSearch;
   });
 
@@ -179,14 +256,14 @@ function renderProjects() {
 
   if (filtered.length === 0) {
     container.innerHTML = `
-      <div class="col-span-full py-16 text-center">
-        <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-slate-100 text-slate-400 mb-4">
+      <div class="col-span-full py-16 text-center bg-white rounded-3xl border border-slate-200">
+        <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-slate-100 text-slate-400 mb-4">
           <i data-lucide="search-x" class="w-8 h-8"></i>
         </div>
-        <h3 class="text-lg font-semibold text-slate-800">Tidak ada proyek yang sesuai</h3>
-        <p class="text-sm text-slate-500 mt-1">Coba kata kunci lain atau ubah kategori filter.</p>
-        <button onclick="resetFilters()" class="mt-4 px-4 py-2 bg-sky-600 hover:bg-sky-700 text-white text-sm font-medium rounded-lg transition">
-          Reset Filter
+        <h3 class="text-lg font-bold text-slate-800">Tidak ada proyek yang sesuai</h3>
+        <p class="text-sm text-slate-500 mt-1">Coba gunakan kata kunci lain atau ubah kategori filter.</p>
+        <button onclick="resetFilters()" class="mt-4 px-5 py-2.5 bg-sky-600 hover:bg-sky-700 text-white text-sm font-semibold rounded-xl transition">
+          Reset Filter Pencarian
         </button>
       </div>
     `;
@@ -195,50 +272,88 @@ function renderProjects() {
   }
 
   container.innerHTML = filtered.map(item => {
-    const waMessage = encodeURIComponent(`Halo Cipta Group, saya ingin informasi lebih lanjut mengenai proyek "${item.title}".`);
+    const waMessage = encodeURIComponent(`Halo Cipta Group, saya ingin informasi dan pricelist proyek "${item.title}".`);
     const waLink = `https://api.whatsapp.com/send?phone=${CIPTA_DATA.profile.whatsapp}&text=${waMessage}`;
 
+    // Render Subfolder Chips
+    const subfolderChips = item.subfolders.map(sf => `
+      <a href="${sf.url}" target="_blank" rel="noopener noreferrer"
+         title="${sf.tag}: Buka folder ${sf.name}"
+         class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-100 hover:bg-sky-50 text-slate-700 hover:text-sky-700 border border-slate-200 hover:border-sky-300 transition">
+        <i data-lucide="${sf.icon || 'folder'}" class="w-3.5 h-3.5 text-sky-600"></i>
+        ${sf.name}
+      </a>
+    `).join('');
+
+    const filesNotice = item.filesHighlight ? `
+      <div class="mt-3 p-2.5 rounded-xl bg-purple-50 border border-purple-200 flex items-center gap-2 text-xs text-purple-900 font-medium">
+        <i data-lucide="film" class="w-4 h-4 text-purple-600 shrink-0"></i>
+        <span>${item.filesHighlight}</span>
+      </div>
+    ` : '';
+
     return `
-      <div class="glass-card rounded-2xl overflow-hidden flex flex-col group">
-        <!-- Card Header / Banner -->
-        <div class="p-6 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white relative">
-          <div class="flex items-center justify-between mb-4">
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold border ${item.tagColor}">
-              ${item.tag}
+      <div class="glass-card rounded-3xl overflow-hidden flex flex-col group border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300">
+        
+        <!-- Card Header -->
+        <div class="p-6 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white relative">
+          <div class="flex items-center justify-between mb-3">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold border ${item.tagColor}">
+              ${item.highlight}
             </span>
-            <span class="text-xs text-slate-400 flex items-center gap-1">
+            <span class="text-xs text-slate-300 flex items-center gap-1 font-medium">
               <i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-400"></i> ${item.location}
             </span>
           </div>
 
-          <h3 class="text-xl font-bold tracking-tight text-white group-hover:text-sky-300 transition-colors">
-            ${item.title}
-          </h3>
-          <p class="text-xs text-sky-400 mt-1 font-medium tracking-wide">
-            ${item.type}
+          <div class="flex items-center gap-2.5">
+            <span class="text-2xl">${item.emoji}</span>
+            <h3 class="text-xl font-bold tracking-tight text-white group-hover:text-sky-300 transition-colors">
+              ${item.title}
+            </h3>
+          </div>
+          <p class="text-xs text-sky-400 mt-1 font-semibold tracking-wide">
+            ${item.categoryLabel}
           </p>
         </div>
 
         <!-- Card Body -->
         <div class="p-6 flex-1 flex flex-col justify-between bg-white">
-          <p class="text-sm text-slate-600 line-clamp-3 leading-relaxed mb-6">
-            ${item.description}
-          </p>
+          <div>
+            <p class="text-sm text-slate-600 leading-relaxed mb-5">
+              ${item.description}
+            </p>
 
-          <!-- Action Buttons -->
+            <!-- Bagian Subfolder Dokumen -->
+            <div class="mb-5 pt-4 border-t border-slate-100">
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">
+                  Berkas & Folder Digital (${item.subfolders.length}):
+                </span>
+                <span class="text-[10px] text-sky-600 font-semibold">Bisa Dibuka</span>
+              </div>
+              <div class="flex flex-wrap gap-1.5">
+                ${subfolderChips}
+              </div>
+              ${filesNotice}
+            </div>
+          </div>
+
+          <!-- Tombol Aksi -->
           <div class="space-y-2 pt-4 border-t border-slate-100">
             <a href="${item.driveUrl}" target="_blank" rel="noopener noreferrer" 
                class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-slate-900 hover:bg-slate-800 text-white text-sm font-semibold rounded-xl transition shadow-sm hover:shadow">
               <i data-lucide="folder-open" class="w-4 h-4 text-sky-400"></i>
-              Buka Brosur & Pricelist (Drive)
+              Buka Google Drive Utama
             </a>
 
             <a href="${waLink}" target="_blank" rel="noopener noreferrer"
-               class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-emerald-50 hover:bg-emerald-100 text-emerald-700 text-sm font-semibold rounded-xl border border-emerald-200 transition">
+               class="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-emerald-50 hover:bg-emerald-100 text-emerald-800 text-sm font-semibold rounded-xl border border-emerald-200 transition">
               <i data-lucide="message-circle" class="w-4 h-4 text-emerald-600"></i>
-              Tanya via WhatsApp
+              Tanya Brosur & Pricelist (WA)
             </a>
           </div>
+
         </div>
       </div>
     `;
@@ -296,7 +411,7 @@ function resetFilters() {
   renderProjects();
 }
 
-// Modal Konsultasi Cepat
+// Modal Form Konsultasi
 function setupContactModal() {
   const modal = document.getElementById('contactModal');
   const form = document.getElementById('inquiryForm');
